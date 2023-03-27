@@ -2,8 +2,8 @@ pipeline {
   agent any
 	
   environment {
-    DOCKERHUB_CREDENTIALS = credentials('docker_credentials')
-    REMOTE_SERVER = '54.173.209.86'
+    DOCKERHUB_CREDENTIALS = credentials('Docker-Cerd')
+    REMOTE_SERVER = '3.80.18.8'
     REMOTE_USER = 'ec2-user' 	  	  
   }
 	
